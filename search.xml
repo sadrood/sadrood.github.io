@@ -8,7 +8,7 @@
       <link href="/2022/05/23/%E5%85%B3%E4%BA%8E%E6%88%91%E6%98%AF%E8%B0%81/"/>
       <url>/2022/05/23/%E5%85%B3%E4%BA%8E%E6%88%91%E6%98%AF%E8%B0%81/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><p>什么是我？</p><span id="more"></span><p>我是一个经常发呆,做事分心,聊天走神的人.<br>我是一个白天睡不着觉,周末就睡懒觉,工作日才会早起的人.<br>我是一个喜欢看人来人去的人.<br>我是一个相信世界还是好人多的人.<br>我是一个热爱祖国的人.<br>我是一个经常呆在家的人.<br>我是一个很久才换一次发型的人.<br>我是一个不习惯改变的人.<br>我是一个恨极眼镜却又近视的人.<br>我是一个喜欢鲜花,白色黑色,和彩虹的人.<br>我是一个在乡村就喜欢看星星的人.<br>我是一个想要锻炼却总是没有锻炼的人.<br>我是一个容易忘记难过记住快乐的人.<br>我是一个喜欢多多睡觉的人<br>我是一个不喜欢看小说的人<br>我是一个喜欢读传记的人<br>我是一个分析型性格的人<br>我是一个有梦想，但是很懒惰的人<br>我是一个曾经很悲伤，现在认为自己不再悲伤，实际上很幸运的人<br>我是一个只要自己喜欢做的事就能完美的完成的人<br>我是一个想成为自由主义者，但经历种种不公平和流亡，最终得到不一样的自由主义观念的人</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>什么是我？</p><span id="more"></span><p>我是一个经常发呆,做事分心,聊天走神的人.<br>我是一个白天睡不着觉,周末就睡懒觉,工作日才会早起的人.<br>我是一个喜欢看人来人去的人.<br>我是一个相信世界还是好人多的人.<br>我是一个热爱祖国的人.<br>我是一个经常呆在家的人.<br>我是一个很久才换一次发型的人.<br>我是一个不习惯改变的人.<br>我是一个恨极眼镜却又近视的人.<br>我是一个喜欢鲜花,白色黑色,和彩虹的人.<br>我是一个在乡村就喜欢看星星的人.<br>我是一个想要锻炼却总是没有锻炼的人.<br>我是一个容易忘记难过记住快乐的人.<br>我是一个喜欢多多睡觉的人<br>我是一个不喜欢看小说的人<br>我是一个喜欢读传记的人<br>我是一个分析型性格的人<br>我是一个有梦想，但是很懒惰的人<br>我是一个曾经很悲伤，现在认为自己不再悲伤，实际上很幸运的人<br>我是一个只要自己喜欢做的事就能完美的完成的人<br>我是一个想成为自由主义者，但经历种种不公平和流亡，最终得到不一样的自由主义观念的人</p>]]></content>
       
       
       
@@ -27,7 +27,7 @@
       <link href="/2022/05/23/%E7%AE%80%E5%8D%95%E7%BD%91%E9%A1%B5%E5%8A%A0%E5%AF%86/"/>
       <url>/2022/05/23/%E7%AE%80%E5%8D%95%E7%BD%91%E9%A1%B5%E5%8A%A0%E5%AF%86/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><p>##在浏览网页的时候，有时候会弹出请输入密码才能访问该页面，这是怎么做的呢？设置密码访问页面类似于登录方可进入，但其实不是一回事。</p><span id="more"></span><p>代码如下<br>在</head>前加入如下代码</p><SCRIPT language=JavaScript>  function password() {  var testV = 1;  var pass1 = prompt('请输入密码:','');  while (testV < 3) {  if (!pass1)  history.go(-1);  if (pass1 == "这里输入你想设置的密码") {  alert('密码正确!');  break;  }  testV+=-1;  var pass1 = prompt('密码错误!请重新输入:');  }  if (pass1!="password" & testV ==3)  history.go(-1);  return " ";  }  document.write(password());  </SCRIPT><p>按不了F12，一般人还是pj不了拿不到密码的</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##在浏览网页的时候，有时候会弹出请输入密码才能访问该页面，这是怎么做的呢？设置密码访问页面类似于登录方可进入，但其实不是一回事。</p><span id="more"></span><p>代码如下<br>在</head>前加入如下代码</p><p>`&lt;SCRIPT language=JavaScript</p><p>function password() { </p><p>var testV = 1; </p><p>var pass1 = prompt(‘请输入密码:’,’’); </p><p>while (testV &lt; 3) { </p><p>if (!pass1) </p><p>history.go(-1); </p><p>if (pass1 == “1”) { </p><p>alert(‘密码正确!’); </p><p>break; </p><p>} </p><p>testV+=-1; </p><p>var pass1 = prompt(‘密码错误!请重新输入:’); </p><p>} </p><p>if (pass1!=”password” &amp; testV ==3) </p><p>history.go(-1); </p><p>return “ “; </p><p>} </p><p>document.write(password()); </p><p></SCRIPT>`</p><p>按不了F12，一般人还是pj不了拿不到密码的</p>]]></content>
       
       
       
