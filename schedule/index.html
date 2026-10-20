@@ -44,79 +44,96 @@
   <title>日程表 | 小茗的个人博客</title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
-  <div class="headband"></div>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
 
-  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-    <div class="header-inner">
-      <div class="site-brand-container">
-        <a href="/" class="brand" rel="start">
-          <span class="logo"></span>
-          <span class="site-title">小茗的个人博客</span>
-        </a>
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner">
+        <div class="site-brand-container">
+          <a href="/" class="brand" rel="start">
+            <span class="logo"></span>
+            <span class="site-title">小茗的个人博客</span>
+          </a>
+        </div>
+
+        <nav class="site-nav">
+          <ul class="menu menu-left">
+            <li class="menu-item"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+            <li class="menu-item"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+            <li class="menu-item"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+            <li class="menu-item"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
+            <li class="menu-item"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+            <li class="menu-item"><a href="/resources/" rel="section"><i class="fa fa-cloud-download fa-fw"></i>资源</a></li>
+            <li class="menu-item menu-item-active"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="site-nav">
-        <ul class="menu menu-left">
-          <li class="menu-item"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
-          <li class="menu-item"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-          <li class="menu-item"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
-          <li class="menu-item"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
-          <li class="menu-item"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
-          <li class="menu-item"><a href="/resources/" rel="section"><i class="fa fa-cloud-download fa-fw"></i>资源</a></li>
-          <li class="menu-item"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <main class="main">
-    <div class="main-inner">
-      <div class="content-wrap">
-        <div class="content">
-          <div class="page-post" itemprop="mainEntity" itemscope itemtype="http://schema.org/Article">
-            <div class="page-post-content" itemprop="articleBody">
-              <h1 class="page-title">日程表</h1>
-              <div class="schedule-content">
-                <p>欢迎来到我的日程表页面。</p>
-                <p>这里可以记录重要的日程安排、待办事项或生活计划。</p>
-                <blockquote>
-                  <p>计划赶不上变化，但没有计划更不知所措。</p>
-                </blockquote>
-                <h2>近期计划</h2>
-                <ul class="task-list">
-                  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled> 重新开始写博客</li>
-                  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled> 学习一门新技术</li>
-                  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled> 整理过往项目</li>
-                  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled> 保持运动习惯</li>
-                </ul>
-                <p><em>页面持续更新中...</em></p>
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div class="content">
+            <div class="post-block" itemprop="mainEntity" itemscope itemtype="http://schema.org/Article">
+              <div class="post-block-inner" itemprop="articleBody">
+                <h1 class="page-title">日程表</h1>
+                <div class="post-body schedule-content">
+                  <p>欢迎来到我的日程表页面。</p>
+                  <p>这里可以记录重要的日程安排、待办事项或生活计划。</p>
+                  <blockquote>
+                    <p>计划赶不上变化，但没有计划更不知所措。</p>
+                  </blockquote>
+
+                  <h2>近期计划</h2>
+                  <ul class="plan-list">
+                    <li>重新开始写博客</li>
+                    <li>学习一门新技术</li>
+                    <li>整理过往项目</li>
+                    <li>保持运动习惯</li>
+                  </ul>
+
+                  <p>页面持续更新中...</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
-    <div class="footer-inner">
-      <div class="copyright">
-        <span>&copy; 2022-2025 小茗</span>
+    <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+      <div class="footer-inner">
+        <div class="copyright">
+          <span>© 2022-2025 小茗</span>
+        </div>
+        <div class="powered-by">
+          Powered by <a href="https://hexo.io/" target="_blank" rel="noopener" itemprop="publisher">Hexo</a> &amp;
+          <a href="https://theme-next.org/" target="_blank" rel="noopener">NexT</a>
+        </div>
       </div>
-      <div class="powered-by">
-        Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> & <a href="https://theme-next.js.org/" target="_blank" rel="noopener">NexT</a>
+    </footer>
+
+    <div class="back-to-top">
+      <div class="back-to-top-background">
+        <i class="fa fa-angle-up"></i>
+      </div>
+      <div class="back-to-top-percent">
+        <span>0%</span>
       </div>
     </div>
-  </footer>
-
-  <div class="back-to-top" id="back-to-top">
-    <i class="fa fa-arrow-up"></i>
   </div>
+
+  <script src="/lib/canvas-nest/canvas-nest.min.js" color='0,0,255' opacity='0.5' zIndex='-1' count='99'></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
 
   <script src="/js/utils.js"></script>
   <script src="/js/motion.js"></script>
   <script src="/js/schemes/pisces.js"></script>
   <script src="/js/next-boot.js"></script>
   <script src="/js/bookmark.js"></script>
+
 </body>
 </html>

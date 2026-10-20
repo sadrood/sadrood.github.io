@@ -49,6 +49,8 @@
             container: container,
             fixed: true,
             autoplay: false,
+            narrow: false,
+            width: 360,
             audio: audioList
         });
 
