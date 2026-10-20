@@ -2,7 +2,7 @@
 // 原始音频链接来自 ytmp3.cn 已失效，需替换为可用的音频源
 // 建议：使用 MetingJS + 网易云音乐 API，或自托管音频文件
 
-document.addEventListener('DOMContentLoaded', function() {
+(function initAPlayer() {
     const container = document.getElementById('aplayer');
     if (!container) return;
 
@@ -22,12 +22,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // }
     const audioList = [
         // 示例：网易云音乐外链（需自行获取有效链接）
-        // {
-        //     name: "平凡之路",
-        //     artist: "朴树",
-        //     url: "https://music.163.com/song/media/outer/url?id=188852.mp3",
-        //     cover: "https://p1.music.126.net/xxx.jpg"
-        // },
+        // 建议使用 MetingJS + 网易云音乐 API 获取稳定外链
+        {
+            name: "平凡之路",
+            artist: "朴树",
+            url: "https://music.163.com/song/media/outer/url?id=188852.mp3",
+            cover: "https://p1.music.126.net/109951164169407935.jpg"
+        },
+        {
+            name: "起风了",
+            artist: "吴青峰",
+            url: "https://music.163.com/song/media/outer/url?id=1393857263.mp3",
+            cover: "https://p1.music.126.net/109951164169407935.jpg"
+        }
     ];
 
     if (audioList.length === 0) {
@@ -58,4 +65,9 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('APlayer 初始化失败:', e);
         container.style.display = 'none';
     }
-});
+})();
+
+// 如果脚本加载时 DOM 还没 ready（极少见），兜底监听一次
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAPlayer);
+}
