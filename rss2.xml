@@ -4,9 +4,9 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>小茗的个人博客</title>
-    <link>http://example.com/</link>
+    <link>https://sadrood.github.io/</link>
     
-    <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://sadrood.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>改变你的想法，你就改变了自己的世界</description>
     <pubDate>Sun, 07 Aug 2022 11:37:20 GMT</pubDate>
@@ -14,8 +14,8 @@
     
     <item>
       <title>关于，我是谁？</title>
-      <link>http://example.com/2022/05/23/%E5%85%B3%E4%BA%8E%E6%88%91%E6%98%AF%E8%B0%81/</link>
-      <guid>http://example.com/2022/05/23/%E5%85%B3%E4%BA%8E%E6%88%91%E6%98%AF%E8%B0%81/</guid>
+      <link>https://sadrood.github.io/2022/05/23/%E5%85%B3%E4%BA%8E%E6%88%91%E6%98%AF%E8%B0%81/</link>
+      <guid>https://sadrood.github.io/2022/05/23/%E5%85%B3%E4%BA%8E%E6%88%91%E6%98%AF%E8%B0%81/</guid>
       <pubDate>Mon, 23 May 2022 15:03:44 GMT</pubDate>
       
       <description>&lt;h2 id=&quot;什么是我？&quot;&gt;&lt;a href=&quot;#什么是我？&quot; class=&quot;headerlink&quot; title=&quot;什么是我？&quot;&gt;&lt;/a&gt;什么是我？&lt;/h2&gt;</description>
@@ -26,17 +26,17 @@
       
       
       
-      <category domain="http://example.com/tags/%E5%93%B2%E7%90%86/">哲理</category>
+      <category domain="https://sadrood.github.io/tags/%E5%93%B2%E7%90%86/">哲理</category>
       
       
-      <comments>http://example.com/2022/05/23/%E5%85%B3%E4%BA%8E%E6%88%91%E6%98%AF%E8%B0%81/#disqus_thread</comments>
+      <comments>https://sadrood.github.io/2022/05/23/%E5%85%B3%E4%BA%8E%E6%88%91%E6%98%AF%E8%B0%81/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>关于，网页简单加密</title>
-      <link>http://example.com/2022/05/23/%E7%AE%80%E5%8D%95%E7%BD%91%E9%A1%B5%E5%8A%A0%E5%AF%86/</link>
-      <guid>http://example.com/2022/05/23/%E7%AE%80%E5%8D%95%E7%BD%91%E9%A1%B5%E5%8A%A0%E5%AF%86/</guid>
+      <link>https://sadrood.github.io/2022/05/23/%E7%AE%80%E5%8D%95%E7%BD%91%E9%A1%B5%E5%8A%A0%E5%AF%86/</link>
+      <guid>https://sadrood.github.io/2022/05/23/%E7%AE%80%E5%8D%95%E7%BD%91%E9%A1%B5%E5%8A%A0%E5%AF%86/</guid>
       <pubDate>Mon, 23 May 2022 15:03:44 GMT</pubDate>
       
       <description>&lt;p&gt;&lt;strong&gt;在浏览网页的时候，有时候会弹出请输入密码才能访问该页面，这是怎么做的呢？设置密码访问页面类似于登录方可进入，但其实不是一回事。&lt;/strong&gt;&lt;/p&gt;</description>
@@ -47,17 +47,17 @@
       
       
       
-      <category domain="http://example.com/tags/html/">html</category>
+      <category domain="https://sadrood.github.io/tags/html/">html</category>
       
       
-      <comments>http://example.com/2022/05/23/%E7%AE%80%E5%8D%95%E7%BD%91%E9%A1%B5%E5%8A%A0%E5%AF%86/#disqus_thread</comments>
+      <comments>https://sadrood.github.io/2022/05/23/%E7%AE%80%E5%8D%95%E7%BD%91%E9%A1%B5%E5%8A%A0%E5%AF%86/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>睡前小故事</title>
-      <link>http://example.com/2022/05/22/book/</link>
-      <guid>http://example.com/2022/05/22/book/</guid>
+      <link>https://sadrood.github.io/2022/05/22/book/</link>
+      <guid>https://sadrood.github.io/2022/05/22/book/</guid>
       <pubDate>Sat, 21 May 2022 16:00:00 GMT</pubDate>
       
       <description>Here&#39;s something encrypted, password is required to continue reading.</description>
@@ -68,10 +68,10 @@
       
       
       
-      <category domain="http://example.com/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/">电子书</category>
+      <category domain="https://sadrood.github.io/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/">电子书</category>
       
       
-      <comments>http://example.com/2022/05/22/book/#disqus_thread</comments>
+      <comments>https://sadrood.github.io/2022/05/22/book/#disqus_thread</comments>
       
     </item>
     
